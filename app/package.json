@@ -1,0 +1,32 @@
+{
+  "name": "mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "start": "node build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@auth0/auth0-mcp-server": "^0.1.0-beta.3",
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "axios": "^1.11.0",
+    "express": "^5.1.0",
+    "express-jwt": "^8.5.1",
+    "jose": "^6.1.0",
+    "jwks-rsa": "^3.2.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "request": "^2.88.2",
+    "typescript": "^5.9.2"
+  }
+}
