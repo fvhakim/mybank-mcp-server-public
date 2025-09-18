@@ -13,7 +13,7 @@ var  MYBANK_API_2_ACCESS_TOKEN = "new_token";
 
 
 const AUTH0_DOMAIN = "<domain-name>.us.auth0.com";
-const AUTH0_AUDIENCE = "https://my.api/userinfo";
+const AUTH0_AUDIENCE = "https://mcp.mybank.com";
 
 const MYBANK_API_1_AUTH0_DOMAIN = "<domain-name>.us.auth0.com";
 const MYBANK_API_1_CLIENT_ID = "<CLIENT_ID_FOR_API-1>";
